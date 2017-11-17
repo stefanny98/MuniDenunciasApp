@@ -6,61 +6,50 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="20dp"
-    tools:context="com.aquino.munidenuncias.activities.MainActivity">
-
+    tools:context="com.aquino.munidenuncias.activities.RegisterActivity">
 
     <TextView
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:text="Registro de usuario"
+        android:textStyle="bold"
         android:textSize="20dp"
-        android:padding="5dp"
-        android:text="Bienvenido al app de denuncias"
-        />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
         />
 
     <EditText
-        android:id="@+id/textUser"
+        android:id="@+id/textUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Usuario"
+        android:hint="Username"
+        android:layout_marginTop="20dp"
         android:inputType="text"
-        android:layout_margin="20dp"
         />
     <EditText
         android:id="@+id/textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:layout_marginTop="20dp"
         android:inputType="textPassword"
-        android:layout_margin="20dp"
         />
-
-    <Button
-        android:id="@+id/buttonLogin"
+    <EditText
+        android:id="@+id/textEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Iniciar sesion"
-        android:textColor="@android:color/white"
-        android:background="@color/colorSecondary"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:onClick="login"
+        android:hint="Correo"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
         />
     <Button
-        android:id="@+id/buttonRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="registrar"
         android:text="Registrar"
         android:textColor="@android:color/white"
         android:background="@color/colorSecondary"
-        android:onClick="register"
         />
+
 </LinearLayout>

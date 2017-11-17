@@ -1,4 +1,6 @@
-package com.aquino.munidenuncias;
+package com.aquino.munidenuncias.services;
+
+import com.aquino.munidenuncias.services.ApiService;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

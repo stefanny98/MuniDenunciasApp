@@ -1,6 +1,8 @@
-package com.aquino.munidenuncias;
+package com.aquino.munidenuncias.models;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable{
 
     private Integer id;
     private String username;

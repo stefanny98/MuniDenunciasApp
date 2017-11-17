@@ -1,4 +1,4 @@
-package com.aquino.munidenuncias;
+package com.aquino.munidenuncias.models;
 
 /**
  * Created by Alumno on 13/11/2017.
